@@ -1,0 +1,9 @@
+:host{
+  margin-left: 20px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+a.website{
+display: block;
+}

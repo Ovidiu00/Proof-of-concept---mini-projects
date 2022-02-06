@@ -1,0 +1,16 @@
+:host-context(.vertical-view) {
+  display: flex;
+  flex-direction: row;
+}
+:host-context(.horizontal-view) {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+
+:host-context(.horizontal-view) {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}

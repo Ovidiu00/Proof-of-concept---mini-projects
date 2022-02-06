@@ -1,0 +1,8 @@
+.vertical{
+  display: flex;
+  flex-direction: row;
+}
+.horizontal{
+  flex-direction: column;
+  display: inline-flex;
+}

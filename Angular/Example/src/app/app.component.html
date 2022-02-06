@@ -1,0 +1,39 @@
+<H1
+  style="
+    font-style: italic;
+    border-bottom: 2px black solid;
+    display: inline-block;
+    margin: 50px;
+  "
+  >Dynamically changing styles using CSS</H1
+>
+<div class="vertical-view">
+  <app-list></app-list>
+</div>
+
+<H1 style="margin: 50px">
+  -----------------------------------------------------------------------------------------------------------------------------------
+</H1>
+
+<div class="horizontal-view">
+  <app-list></app-list>
+</div>
+
+<H1
+  style="
+    font-style: italic;
+    border-bottom: 2px black solid;
+    display: inline-block;
+    margin: 50px;
+  "
+  >Dynamically changing styles using typescript</H1
+>
+<Br />
+
+<app-list2 [view]="verticalViewEnum"></app-list2>
+
+<H1 style="margin: 50px">
+  -----------------------------------------------------------------------------------------------------------------------------------
+</H1>
+
+<app-list2 [view]="horizontalViewEnum"></app-list2>
